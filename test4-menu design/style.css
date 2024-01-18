@@ -1,0 +1,223 @@
+body {
+    background-image: url(image.jpg);
+}
+
+.container-main {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.menu-container {
+    width: 700px;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    position: relative;
+
+}
+
+.container-house {
+    height: 200px;
+    width: 200px;
+    margin-right: 12px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25% );
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25% );
+    background-color: #242a38;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+   
+}
+
+.container-account {
+    height: 200px;
+    width: 200px;
+    margin-right: 12px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #242a38;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+
+}
+
+.container-messages {
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #242a38;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-cart {
+    height: 200px;
+    width: 200px;
+    margin-right: 12px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #242a38;
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container-shop {
+    height: 200px;
+    width: 200px;
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    background-color: #242a38;
+    position: relative;
+    bottom: 40px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.title {
+    color: white;
+    font-size: 16;
+    z-index: 2;
+
+}
+
+.icon {
+    font-size: 28px;
+    color: white;
+    z-index: 2;
+    margin-bottom: 20px;
+
+}
+
+.container-messages::after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    background-color: rgb(214, 109, 39);
+    transition: 500ms;
+}
+
+.container-house::after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    background-color: rgb(214, 109, 39);
+    transition: 500ms;
+}
+
+.container-cart::after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    background-color: rgb(214, 109, 39);
+    transition: 500ms;
+}
+
+.container-shop::after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    background-color: rgb(214, 109, 39);
+    transition: 500ms;
+}
+
+.container-account::after {
+    content: "";
+    position: absolute;
+    top: 55px;
+    width: 25%;
+    height: 25%;
+    border-radius: 100%;
+    background-color: rgb(214, 109, 39);
+    transition: 500ms;
+}
+
+.container-house:hover:after {
+    width: 150%;
+    height: 150%;
+    right: -30%;
+    top: -50%;
+    transition: 0.1s;
+    transform: translatez(-10px);
+
+}
+
+.container-shop:hover:after {
+    width: 150%;
+    height: 150%;
+    right: -30%;
+    top: -50%;
+    transition: 0.1s;
+    transform: translatez(-10px);
+}
+
+.container-account:hover:after {
+    width: 150%;
+    height: 150%;
+    right: -30%;
+    top: -50%;
+    transition: 0.1s;
+    transform: translatez(-10px);
+}
+
+.container-cart:hover:after {
+    width: 150%;
+    height: 150%;
+    right: -30%;
+    top: -50%;
+    transition: 0.1s;
+    transform: translatez(-10px);
+}
+
+.container-messages:hover:after {
+    width: 150%;
+    height: 150%;
+    right: -30%;
+    top: -50%;
+    transition: 0.1s;
+    transform: translatez(-10px);
+
+}

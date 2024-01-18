@@ -1,0 +1,174 @@
+.skews {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(197, 253, 234);
+    display: flex;
+    flex-direction: row;
+}
+
+.skew-x {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(159, 207, 75);
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 4s;
+}
+
+.skew-x:hover {
+    transform: skewx(60deg);
+}
+
+.skew-y {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(230, 119, 67);
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 3s;
+}
+
+.skew-y:hover {
+    transform: skewy(-60deg);
+
+}
+
+.skew {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(230, 200, 67);
+    margin: 100px;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+    transition-duration: 3s;
+}
+
+.skew:hover {
+    transform: skew(-30deg, 40deg);
+
+}
+
+
+
+
+.rotates {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(179, 247, 166);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.rotate-negetive {
+    margin: 100px;
+    transition-duration: 3s;
+    transition-timing-function:linear;
+
+}
+
+.rotate-negetive img {
+    border-radius: 10px;
+}
+
+.rotate-negetive:hover {
+    transform: rotate(85deg);
+}
+
+.rotate-positive {
+    margin: 100px;
+    transition-duration: 4s;
+    transition-timing-function:ease-in-out;
+}
+
+.rotate-positive img {
+    border-radius: 10px;
+}
+
+.rotate-positive:hover {
+    transform: rotate(-85deg);
+
+}
+
+.rotate {
+    margin: 100px;
+    transition-duration: 5s;
+    transition-timing-function: ease-out;
+}
+
+.rotate img {
+    border-radius: 10px;
+}
+
+.rotate:hover {
+    transform: rotate(0.5turn);
+    
+
+}
+
+
+.transitions {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(77, 183, 245);
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.transition-property {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(161, 91, 219);
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    transition-property: width, border-radius, background-color;
+    transition-duration: 3s, 5s, 7s;
+    transition-delay: 0s, 3s, 5s ;
+}
+
+.transition-property:hover {
+    width: 300px;
+    border-radius: 60%;
+    background-color: chartreuse;
+}
+
+.transition-duration {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(161, 91, 219);
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-delay: 2s ;
+}
+
+.transition-duration:hover {
+    width: 300px;
+    border-radius: 60%;
+    background-color: chartreuse;
+}
+
+.transition {
+    width: 200px;
+    height: 50px;
+    background-color: rgb(91, 219, 119);
+    margin: 50px;
+    border-radius: 10px;
+    text-align: center;
+    transition-property: height;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;
+}
+
+.transition:hover {
+    height: 100px;
+}

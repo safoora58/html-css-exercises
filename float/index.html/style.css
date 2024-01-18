@@ -1,0 +1,33 @@
+.box {
+    margin: 5px;
+    margin-left: 50px;
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+}
+.container {
+    background-color: darkseagreen;
+    margin: auto;
+    width: 400px;
+    height: 250px;
+}
+.box2 {
+    margin: 8px;
+    width: 200px;
+    font-size: 2rem;
+    text-align: center;
+    float: left;
+}
+.container2 {
+    background-color: darkseagreen;
+    margin: auto;
+    width: 900px;
+    height: 200px;
+}
+h1 {
+    text-align: center;
+}
+h2 {
+    text-align: center;
+    font-size: 35px;
+}

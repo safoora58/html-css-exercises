@@ -1,0 +1,87 @@
+body {
+    direction: rtl;
+    margin-right: 80px;
+    margin-left: 80px;
+}
+
+@font-face {
+    font-family: sahel;
+    src: url('./fonts/Sahel-Black.eot');
+    src: url('./fonts/Sahel-Black.eot') format('embedded-opentype'),
+        url('./fonts/Sahel-Black.woff2') format('woff2'),
+        url('./fonts/Sahel-Black.woff') format('woff'),
+        url('./fonts/Sahel-Black.ttf') format('truetype');
+}
+
+
+p {
+    font-size: 20px;
+    text-align: justify;
+    line-height: 40px;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #8722a3;
+    font-family: sahel;
+
+}
+
+li {
+    list-style: circle;
+    line-height: 30px;
+
+
+}
+
+ul a {
+    text-decoration: none;
+    color: #363434d7;
+    font-size: 20px;
+
+}
+
+
+.back {
+    text-decoration: none;
+    background-color: darkcyan;
+    border-radius: 20px;
+    color: black;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 150px;
+    margin-bottom: 70px;
+    margin-top: 40px;
+}
+
+.back:hover {
+    background-color: rgb(107, 45, 158);
+}
+
+.article {
+    width: 700px;
+    border: groove 1px darkgray;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 50px;
+    padding: 20px;
+
+
+}
+
+ul a:visited {
+    color: darkcyan;
+}
+
+ul a:hover {
+    color: rgb(42, 42, 219);
+}
+
+ul a:active {
+    color: brown;
+
+}

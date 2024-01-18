@@ -1,0 +1,231 @@
+.transform-SCALE {
+    width: 900px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10PX;
+    background-color: rgb(113, 158, 160);
+}
+
+.transform-ROTATE {
+    width: 900px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30PX;
+    background-color: rgb(113, 158, 160);
+}
+
+.transform-TRANSLATE {
+    width: 900px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30PX;
+    background-color: rgb(113, 158, 160);
+}
+
+.transform-SKEW {
+    width: 900px;
+    height: 110px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 30PX;
+    background-color: rgb(113, 158, 160);
+}
+
+.transform-scale {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale(1.3);
+}
+
+.transform-scale-3d {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scale3d(1.2);
+}
+
+.transform-scale-x {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleX(1.2);
+}
+
+.transform-scale-y {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: scaleY(1.5);
+}
+
+.transform-rotate {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(30deg);
+
+}
+
+.transform-rotate-3d {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotate3d(40deg);
+
+}
+
+.transform-rotate-x {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateX(40deg);
+
+}
+
+.transform-rotate-y {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateY(50deg);
+
+}
+
+.transform-rotate-z {
+    width: 110px;
+    height: 70px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: rotateZ(60deg);
+
+}
+
+.transform-translate {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(20px, 15px);
+}
+
+.transform-translate-3d {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate3d(40%);
+}
+
+.transform-translate-x {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateX(20%, 20px);
+}
+
+.transform-translate-y {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateY(20px);
+}
+
+.transform-translate-z {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translateZ(30px);
+}
+
+.transform-skew {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skew(30deg)
+}
+
+.transform-skew-x {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewX(50deg);
+}
+
+.transform-skew-y {
+    width: 100px;
+    height: 80px;
+    background-color: goldenrod;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: skewY(50deg);
+}

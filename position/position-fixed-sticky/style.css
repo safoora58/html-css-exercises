@@ -1,0 +1,43 @@
+.header{
+    font-size: 3rem;
+    font-style: italic;
+    font-weight: bold;
+   }
+h1 {
+    background-color: rgb(210, 219, 85);
+    text-align: center;
+    border: 3px solid rgb(116, 157, 219);
+    width: 400px;
+    height: 100px;
+    margin: auto;
+   }
+.title{
+    position: sticky;
+    top: 0;
+    margin-bottom: 50px;
+}
+.position {
+    background-color: rgb(223, 35, 28);
+    display: inline-block;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    border: 3px solid rgb(116, 157, 219);
+    border-radius: 8px;
+    position: fixed;
+    bottom:40px;
+    right: 30px;
+ 
+}
+
+.text {
+    background-color: rgb(180, 203, 238);
+    border: 2px;
+    border: 3px solid rgb(116, 157, 219);
+    width: 900px;
+    line-height: 30px; 
+    font-size: 20px;
+
+}

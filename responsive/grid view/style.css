@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+
+
+.boxes div {
+    background-color: rgb(93, 153, 24);
+    color: rgb(19, 18, 18);
+    padding: 16px;
+    height: 70px;
+}
+
+.boxes {
+    max-width: 1200px;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+@media screen and (min-width: 600px) and ( max-width:900px) {
+    .boxes {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+
+@media screen and (min-width: 900px) {
+    .boxes {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}

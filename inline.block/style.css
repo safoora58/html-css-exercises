@@ -1,0 +1,35 @@
+.a {
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    border: 2px solid rgb(180, 22, 82);    
+    background-color: yellow;
+  }
+  span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    border: 2px solid rgb(180, 22, 82);    
+    background-color: yellow; 
+  }
+    span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 4px;
+    border: 2px solid rgb(180, 22, 82);    
+    background-color: yellow; 
+  }
+  h1{
+    font-size: 3rem;}
+  h2{
+    font-size: 20px;
+    color: blue; }
+  h3{
+    font-size: 20px;
+    color: blue;}
+  h4{
+    font-size: 20px;
+    color: blue; }

@@ -1,0 +1,17 @@
+.circle1 {
+    position: relative;
+    width: 1100px;
+    height: 100vh;
+    clip-path: ellipse(250px 150px at top left);
+    background-image: url(images.jpg);
+    
+}
+
+.circle2{
+    position: absolute;
+  top: 0;
+    clip-path: ellipse(250px 150px at top right);
+    background-image: url(2.jpg);
+    width: 1100px;
+    height: 100vh;
+}

@@ -1,0 +1,79 @@
+body {
+    text-align: center;
+    margin-top: 50px;
+    background-color: rgb(226, 223, 182);
+}
+
+#main {
+    line-height: 80px;
+}
+
+.sentence1 {
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence2 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence4 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence5 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence6 {
+    font-family: 'Apollo ASM', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence7 {
+    font-family: 'Hopelove', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence8 {
+    font-family: 'Kandis Marsh Demo', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence9 {
+    font-family: 'Roda', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.sentence10 {
+    font-family: 'Gellardo Demo', sans-serif;
+    font-style: italic;
+    font-weight: bold;
+    font-size: 40px;
+}

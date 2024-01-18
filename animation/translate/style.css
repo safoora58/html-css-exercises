@@ -1,0 +1,150 @@
+.translates {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(197, 253, 234);
+    display: flex;
+    flex-direction: row;
+}
+
+.translate-x {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(159, 207, 75);
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.translate-x:hover {
+    transform: translateX(200px);
+}
+
+.translate-y {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(230, 119, 67);
+    margin: 100px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.translate-y:hover {
+    transform: translatey(100px);
+
+}
+
+.translate {
+    width: 150px;
+    height: 50px;
+    background-color: rgb(230, 200, 67);
+    margin: 100px;
+    float: right;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.translate:hover {
+    transform: translate(-200px, -100px);
+
+}
+
+
+
+.scales {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(179, 247, 166);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.scale-x {
+    margin: 100px;
+
+}
+
+.scale-x img {
+    border-radius: 10px;
+}
+
+.scale-x:hover {
+    transform: scalex(1.5);
+}
+
+.scale-y {
+    margin: 100px;
+}
+
+.scale-y img {
+    border-radius: 10px;
+}
+
+.scale-y:hover {
+    transform: scaley(1.5);
+
+}
+
+.scale {
+    margin: 100px;
+}
+
+.scale img {
+    border-radius: 10px;
+}
+
+.scale:hover {
+    transform: scale(1.5, 1.5);
+
+}
+
+
+.scales-negetive {
+    width: 100vw;
+    height: 200px;
+    background-color: rgb(245, 224, 155);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.scale-xn {
+    margin: 100px;
+
+}
+
+.scale-xn img {
+    border-radius: 10px;
+}
+
+.scale-xn:hover {
+    transform: scalex(-1.5);
+}
+
+.scale-yn {
+    margin: 100px;
+}
+
+.scale-yn img {
+    border-radius: 10px;
+}
+
+.scale-yn:hover {
+    transform: scaley(-1.5);
+
+}
+
+.scale-n {
+    margin: 100px;
+}
+
+.scale-n img {
+    border-radius: 10px;
+}
+
+.scale-n:hover {
+    transform: scale(-1.5, -1.5);
+
+}

@@ -1,0 +1,95 @@
+body {
+    text-align: center;
+    margin-top: 70px;
+    line-height: 70px;
+    font-size: x-large;
+    background-color: rgb(160, 180, 180);
+}
+
+@font-face {
+    font-family: sahel;
+    src: url('./fonts/Sahel-Black.eot');
+    src: url('./fonts/Sahel-Black.eot') format('embedded-opentype'),
+        url('./fonts/Sahel-Black.woff2') format('woff2'),
+        url('./fonts/Sahel-Black.woff') format('woff'),
+        url('./fonts/Sahel-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(./fonts/Vazir-Code-Hack.eot);
+    src: url(./fonts/Vazir-Code-Hack.eot) format('embedded-opentype'),
+        url(./fonts/Vazir-Code-Hack.woff2) format('woff2'),
+        url(./fonts/Vazir-Code-Hack.woff) format('woff'),
+        url(./fonts/Vazir-Code-Hack.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: shabnam;
+    src: url(./fonts/Shabnam-Bold.eot);
+    src: url(./fonts/Shabnam-Bold.eot) format('embedded-opentype'),
+        url(./fonts/Shabnam-Bold.woff2) format('woff2'),
+        url(./fonts/Shabnam-Bold.woff) format('woff'),
+        url(./fonts/Shabnam-Bold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: gandom;
+    src: url(./fonts/Gandom.eot);
+    src: url(./fonts/Gandom.eot) format('embedded-opentype'),
+        url(./fonts/Gandom.woff2) format('woff2'),
+        url(./fonts/Gandom.woff) format('woff'),
+        url(./fonts/Gandom.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: samim;
+    src: url(./fonts/Sahel-SemiBold.eot);
+    src: url(./fonts/Sahel-SemiBold.eot) format('embedded-opentype'),
+        url(./fonts/Sahel-SemiBold.woff2) format('woff2'),
+        url(./fonts/Sahel-SemiBold.woff) format('woff'),
+        url(./fonts/Sahel-SemiBold.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: parastoo;
+    src: url(./fonts/Parastoo-Bold.eot);
+    src: url(./fonts/Parastoo-Bold.eot) format('embedded-opentype'),
+        url(./fonts/Parastoo-Bold.woff2) format('woff2'),
+        url(./fonts/Parastoo-Bold.woff) format('woff'),
+        url(./fonts/Parastoo-Bold.ttf) format('truetype');
+}
+
+.font1 {
+    font-family: sahel;
+    text-decoration: underline;
+}
+
+.font2 {
+    font-family: vazir;
+    text-decoration: overline wavy red;
+}
+
+.font3 {
+    font-family: shabnam;
+    text-shadow: 7px -3px 5px green;
+}
+
+.font4 {
+    font-family: gandom;
+}
+
+.font5 {
+    font-family: samim;
+}
+
+.font6 {
+    font-family: parastoo;
+}
+
+.font7 {
+    font-weight: bold;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-break: break-all;
+}

@@ -1,0 +1,35 @@
+.container {
+    width: 600px;
+    background-color: goldenrod;
+    margin: auto;
+    border: 2px dashed black;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+
+.box {
+    width: 70px;
+    height: 110px;
+    background-color: green;
+}
+
+.container2 {
+    width: 600px;
+    background-color: goldenrod;
+    margin: auto;
+    border: 2px dashed black;
+    padding: 5px 15px;
+    margin-bottom: 5px;
+}
+
+.box2 {
+    width: 70px;
+    height: 110px;
+    background-color: green;
+    float: right;
+}
+
+h2 {
+    text-align: center;
+    font-size: 25px;
+}

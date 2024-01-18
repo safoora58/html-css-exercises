@@ -1,0 +1,32 @@
+.container {
+    width: 500px;
+    background-color: rgb(219, 245, 71);
+    margin-bottom: 100px;
+    border: 2px dashed black;
+    padding: 5px;
+    margin: auto;
+}
+.box {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(51, 134, 121);
+}
+.container2 {
+    width: 500px;
+    background-color: rgb(219, 245, 71);
+    border: 2px dashed black;
+    padding: 5px;
+    margin: auto;
+}
+.box2 {
+    width: 100px;
+    height: 150px;
+    background-color: rgb(51, 134, 121);
+    float: left;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+body {
+    text-align: center;
+    margin-top: 100px;
+    margin-bottom: 290px;
+    background: fixed;
+    background: radial-gradient(circle at center, rgb(47, 89, 105), rgb(35, 29, 92));
+    background-repeat: no-repeat;
+}
+
+.lable {
+    color: white;
+    font-weight: bold;
+    font-size: 15px;
+  }
+
+h1 {
+    color: rgb(33, 202, 180);
+    font-size: 30px;
+}
+#not {
+    color: beige;
+}
+
+label:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+p:hover {
+    background-color: aquamarine;
+    color: black;
+}
+
+div{
+    padding: 10px;
+}

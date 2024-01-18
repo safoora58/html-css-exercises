@@ -1,0 +1,101 @@
+body {
+    background-color: rgb(117, 167, 148);
+}
+
+
+.boxes {
+    width: 100%;
+    margin-top: 220px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.box1 {
+    width: 200px;
+    height: 200px;
+    background-color: coral;
+    border-radius: 30%;
+    margin-right: 20px;
+    border: 2px groove rgb(165, 85, 165);
+}
+
+.box2 {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(243, 255, 80);
+    border-radius: 30%;
+    border: 2px groove rgb(165, 85, 165);
+
+}
+
+@media screen and (max-width : 1000px) {
+
+    body {
+        background-color: rgb(158, 167, 117);
+    }
+
+
+    .boxes {
+        width: 100%;
+        margin-top: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .box1 {
+        width: 60%;
+        height: 200px;
+        background-color: rgb(85, 17, 5);
+        border-radius: 40%;
+        margin-right: 20px;
+        border: 2px groove rgb(165, 85, 165);
+        margin-bottom: 60px;
+    }
+
+    .box2 {
+        width: 40%;
+        height: 200px;
+        background-color: rgb(134, 38, 212);
+        border-radius: 40%;
+        border: 2px groove rgb(165, 85, 165);
+
+    }
+
+
+
+}
+
+@media screen and (max-width : 700px) {
+
+
+    .boxes {
+        width: 100%;
+        margin-top: 220px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    .box1 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(114, 46, 22);
+        border-radius: 30%;
+        box-shadow: inset 3px 5px 10px rgb(18, 22, 18);
+    }
+
+    .box2 {
+        width: 200px;
+        height: 200px;
+        background-color: rgb(74, 78, 31);
+        border-radius: 30%;
+        box-shadow: inset 3px 5px 10px rgb(1, 20, 1);
+    }
+
+
+
+}

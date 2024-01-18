@@ -1,0 +1,29 @@
+body {
+    background-color: #733b2a;
+    background-image: linear-gradient(to top right, #733b2a 0%, #581953 22%, #FFCC70 49%, #601111 75%, #ffffff 100%);
+
+}
+
+#box img {
+float: left;
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgb(15, 27, 83);
+    padding: 20px;
+
+}
+
+p {
+    line-height: 30px;
+    font-size: 20px;
+    background-color: rgb(66, 167, 170);
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+}

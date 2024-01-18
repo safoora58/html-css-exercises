@@ -1,0 +1,16 @@
+
+.parent{
+    font-size: 17px;
+  }
+.child{
+    font-size: 10px;
+}
+ .child1{
+     font-size: 2em;
+ }
+ .child2{
+    font-size: 2em;
+}
+.child3{
+    font-size: 2em;
+}

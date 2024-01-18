@@ -1,0 +1,35 @@
+.content {
+    width: 800px;
+    height: 200px;
+    margin: auto;
+    margin-top: 100px;
+
+}
+
+.content2 {
+    width: 800px;
+    margin: auto;
+    height: 200px;
+    margin-top: 40px;
+
+}
+
+.box {
+    width: 210px;
+    height: 150px;
+    border-radius: 10px;
+    background-color: rgb(192, 170, 47);
+    padding: 15px;
+    float: right;
+    margin: 10px;
+}
+
+.img {
+    text-align: center;
+}
+
+.title {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    text-shadow: 5px;
+}

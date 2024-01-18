@@ -1,0 +1,19 @@
+
+H1{
+    color: aquamarine;
+}
+.parent{
+    font-size: 16px;
+  }
+.child{
+    font-size: 12px;
+}
+ .child1{
+     font-size: 3em;
+ }
+ .child2{
+    font-size: 2em;
+}
+.child3{
+    font-size: 2em;
+}

@@ -1,0 +1,35 @@
+.header {
+    height: 100px;
+    background-color: blueviolet;
+    text-align: center;
+    font-size: 50px;
+}
+.main {
+    height: 400px;
+    background-color: chartreuse;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    background-color: green;
+    float: left;
+    text-align: center;
+    font-size: 50px;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    background-color: rgb(192, 189, 12);
+    float: right;
+    text-align: center;
+    font-size: 50px;
+}
+.footer {
+    height: 100px;
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 50px;
+}
+h1 {
+    text-align: center;
+}

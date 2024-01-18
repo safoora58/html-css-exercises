@@ -1,0 +1,116 @@
+body {
+    background-image: linear-gradient(rgba(126, 115, 115, 0.5), rgba(66, 58, 58, 0.5)), url(download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+li a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(14, 21, 27);
+    font-size: 20px;
+    border-bottom: groove;
+    border-left: groove;
+    border-width: 4px;
+    border-radius: 7px;
+    padding: 5px;
+    border-color: rgb(65, 31, 7);
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    padding: 30px;
+}
+
+h1 {
+    font-size: 60px;
+    color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: black;
+}
+
+p {
+    color: black;
+
+}
+
+#logo {
+    padding-top: 15px;
+    padding-left: 150px;
+}
+
+.logo {
+    width: 40%;
+    height: 100px;
+    display: inline-block;
+}
+
+.header {
+    width: 100vw;
+    height: 100px;
+}
+
+.navbar {
+    width: 60%;
+    height: 100px;
+    text-align: center;
+    float: right;
+}
+
+.img {
+    width: 45%;
+    height: 400px;
+    float: right;
+    margin-top: 100px;
+}
+
+.content {
+    width: 50%;
+    height: 400px;
+    float: left;
+    padding-left: 50px;
+    margin-top: 100px;
+}
+
+.row1 {
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+
+}
+
+.row1 a {
+    padding: 8px;
+    filter: drop-shadow(7px 8px 5px black);
+}
+
+.row2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.row2 a {
+    padding: 8px;
+    filter: drop-shadow(7px 8px 5px black);
+}
+
+.row3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+
+.row3 a {
+    padding: 8px;
+    filter: drop-shadow(7px 8px 5px black);
+}
+
+img {
+    border-radius: 30%;
+}

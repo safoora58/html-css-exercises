@@ -1,0 +1,32 @@
+.overflow-y-visible{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(221, 223, 110);
+    position: absolute;
+    left: 700px;
+    top: 200px;
+    overflow-y: visible;
+}
+.overflow-y-hidden{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(122, 175, 92);
+    margin-bottom: 100px;
+  margin: auto;
+    overflow-y: hidden;
+}
+.overflow-y-scroll{
+    width: 400px;
+    height: 100px;
+    background-color: rgb(175, 95, 84);
+    margin-bottom: 100px;
+    position: absolute;
+    left: 100px;
+    top: 400px;
+    overflow-y: scroll;
+}
+
+span{
+    font-weight: bold;
+    font-size: 20px;
+}

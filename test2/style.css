@@ -1,0 +1,17 @@
+body {
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 50%, #ffffff 100%);
+
+}
+
+
+.header img {
+    width: 800px;
+    height: 600px;
+    filter: blur(2px);
+    filter: drop-shadow(-10px 15px 5px red);
+    margin: 40px;
+    object-fit: scale-down;
+   
+
+}

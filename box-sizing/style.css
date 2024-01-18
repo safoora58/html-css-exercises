@@ -1,0 +1,29 @@
+
+.content-box {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border: 20px solid rgb(134, 206, 76);
+    background-color: rgb(228, 203, 63);
+    margin: auto;
+    box-sizing: content-box;
+    margin-bottom: 20px;
+
+}
+
+.border-box {
+    width: 300px;
+    height: 200px;
+    padding: 30px;
+    border: 20px solid rgb(134, 206, 76);
+    background-color: rgb(183, 129, 204);
+    margin: auto;
+    box-sizing: border-box;
+
+}
+
+
+span {
+    font-weight: bold;
+    font-size: 20px;
+}

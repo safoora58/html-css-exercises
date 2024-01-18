@@ -1,0 +1,49 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(#2c3e50,
+            #bdc3c7);
+    background-repeat: no-repeat;
+
+}
+
+.cotainer {
+    width: 500px;
+    height: 300px;
+    margin: 200px auto;
+    box-shadow: 4px 4px 40px rgb(37, 37, 37);
+    position: relative;
+    border-radius: 10px 25px 10px 25px;
+}
+
+.content {
+    width: 45%;
+    height: 250px;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    text-align: center;
+    line-height: 25px;
+
+}
+
+.sidebar {
+    width: 40%;
+    height: 100%;
+    position: absolute;
+    right: 30px;
+    top: -30px;
+    box-shadow: 4px 4px 40px rgb(37, 37, 37);
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+
+}
+
+li {
+    text-decoration: none;
+}
+
+.picture {
+    width: 100%;
+
+}
